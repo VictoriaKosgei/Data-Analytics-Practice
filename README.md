@@ -1,9 +1,8 @@
-# 8Weeks-Data-Analytics-Internship
-# Week 1 — Online Retail Data Cleaning & Exploratory Data Analysis
+# -Data-Analytics-Practice
+#  Online Retail Data Cleaning & Exploratory Data Analysis
 
 ## 📌 Project Overview
 
-This project was completed as part of the **AnalystLab Africa Data Analytics Internship**.
 
 The project focuses on cleaning, exploring, and analyzing an Online Retail transactions dataset using Python and Jupyter Notebook.
 
@@ -70,6 +69,5 @@ Four visualizations were created using **Matplotlib** to identify important patt
 ## 👤 Project Information
 
 **Author:** Victoria Kosgei  
-**Program:** AnalystLab Africa Data Analytics Internship  
-**Project:** Week 1 — Online Retail Data Cleaning & EDA  
+**Project:** Online Retail Data Cleaning & EDA  
 **Tools:** Python, Pandas, Matplotlib, Jupyter Notebook
