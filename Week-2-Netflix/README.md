@@ -2,8 +2,6 @@
 
 ## 📌 Project Overview
 
-This project was completed as part of the **AnalystLab Africa Data Analytics Internship – Week 2**.
-
 The project focuses on analyzing the **Netflix Movies and TV Shows dataset** to understand the composition and distribution of Netflix's content library.
 
 The workflow covered **data cleaning, exploratory data analysis (EDA), data visualization, and interactive dashboard development** using Python and Power BI.
@@ -239,12 +237,6 @@ This project demonstrates practical experience in:
 
 ---
 
-## 🎓 AnalystLab Africa Internship
-
-**Program:** AnalystLab Africa Data Analytics Internship
-**Week:** 2
-**Project:** Netflix Movies & TV Shows Analysis
-
-This project forms part of my ongoing data analytics internship journey, where I am developing practical skills in **data cleaning, exploratory analysis, visualization, dashboard development, and communicating data-driven insights**.
+This project forms part of my ongoing data analytics practice journey, where I am developing practical skills in **data cleaning, exploratory analysis, visualization, dashboard development, and communicating data-driven insights**.
 
 
