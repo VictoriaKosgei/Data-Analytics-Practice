@@ -1,0 +1,17 @@
+# Keep tracking your existing Jupyter Notebook files
+*.ipynb linguist-detectable=true
+
+# Force track MySQL scripts and queries under the 'SQL' label
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+
+# Force track Power BI scripts (DAX or Power Query M formulas) 
+*.dax linguist-detectable=true
+*.dax linguist-language=DAX
+*.m linguist-detectable=true
+*.m linguist-language=PowerQuery
+
+# Force track Excel datasets (Using text-based CSV format)
+*.csv linguist-detectable=true
+*.csv linguist-language=CSV
+
