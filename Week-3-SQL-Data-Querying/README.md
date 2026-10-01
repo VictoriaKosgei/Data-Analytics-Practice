@@ -2,8 +2,6 @@
 
 ## 📌 Project Overview
 
-This project was completed as part of the **AnalystLab Africa Data Analytics Internship Program – Week 3**.
-
 The focus of this week was to develop practical SQL skills by working with a relational database and using SQL queries to extract, analyze, and interpret data.
 
 The project uses the **Chinook database**, a sample digital music store database containing information about customers, invoices, artists, albums, tracks, employees, and playlists.
@@ -181,9 +179,5 @@ Aspiring Data Analyst | SQL | Python | Excel | Power BI | Tableau
 
 ---
 
-### 📌 Internship
 
-**AnalystLab Africa Data Analytics Internship Program**
-
-**Week 3: SQL & Data Querying**
 
