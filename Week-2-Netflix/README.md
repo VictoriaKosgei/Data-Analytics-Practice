@@ -12,15 +12,15 @@ The workflow covered **data cleaning, exploratory data analysis (EDA), data visu
 
 The main objectives of this project were to:
 
-* Clean and prepare the Netflix dataset for analysis.
-* Explore the structure and characteristics of the dataset.
-* Compare Movies and TV Shows available on Netflix.
-* Analyze content distribution across release years.
-* Identify the most common genres.
-* Examine content ratings.
-* Analyze the geographic distribution of Netflix content.
-* Create meaningful visualizations from the cleaned data.
-* Develop an interactive Power BI dashboard to communicate key insights.
+- Clean and prepare the Netflix dataset for analysis.
+- Explore the structure and characteristics of the dataset.
+- Compare Movies and TV Shows available on Netflix.
+- Analyze content distribution across release years.
+- Identify the most common genres.
+- Examine content ratings.
+- Analyze the geographic distribution of Netflix content.
+- Create meaningful visualizations from the cleaned data.
+- Develop an interactive Power BI dashboard to communicate key insights.
 
 ---
 
@@ -30,12 +30,12 @@ The dataset used for this project is the **Netflix Movies and TV Shows dataset**
 
 ### Dataset Dimensions
 
-* **Rows:** 8,807
-* **Columns:** 12
+- **Rows:** 8,807
+- **Columns:** 12
 
 ### Columns
 
-| Column         | Description                                       |
+| **Column**     | **Description**                                   |
 | -------------- | ------------------------------------------------- |
 | `show_id`      | Unique identifier for each title                  |
 | `type`         | Indicates whether the title is a Movie or TV Show |
@@ -58,26 +58,26 @@ The dataset was first inspected to understand its structure, data types, and mis
 
 The cleaning process included:
 
-* Checking the dataset dimensions.
-* Inspecting column data types.
-* Identifying missing values.
-* Investigating missing values in important columns.
-* Cleaning the `date_added` field.
-* Correcting issues with the `release_year` field.
-* Checking the `rating` and `duration` fields.
-* Preparing the dataset for exploratory analysis and visualization.
-* Saving the cleaned dataset as a CSV file.
+- Checking the dataset dimensions.
+- Inspecting column data types.
+- Identifying missing values.
+- Investigating missing values in important columns.
+- Cleaning the `date_added` field.
+- Correcting issues with the `release_year` field.
+- Checking the `rating` and `duration` fields.
+- Preparing the dataset for exploratory analysis and visualization.
+- Saving the cleaned dataset as a CSV file.
 
 ### Missing Values Identified
 
 Some columns contained missing information, particularly:
 
-* `director`
-* `cast`
-* `country`
-* `date_added`
-* `rating`
-* `duration`
+- `director`
+- `cast`
+- `country`
+- `date_added`
+- `rating`
+- `duration`
 
 These missing values were investigated and handled appropriately during the cleaning process.
 
@@ -97,8 +97,8 @@ The cleaned dataset was explored using Python to identify patterns and trends wi
 
 The dataset contains:
 
-* **Movies:** 6,131
-* **TV Shows:** 2,676
+- **Movies:** 6,131
+- **TV Shows:** 2,676
 
 Movies therefore make up the larger proportion of titles in the dataset.
 
@@ -114,11 +114,11 @@ The `listed_in` column was analyzed to identify the most common genres and categ
 
 Some of the most prominent categories include:
 
-* International Movies
-* Dramas
-* Comedies
-* International TV Shows
-* Documentaries
+- International Movies
+- Dramas
+- Comedies
+- International TV Shows
+- Documentaries
 
 ### ⭐ Ratings
 
@@ -140,26 +140,26 @@ The dashboard provides a visual overview of Netflix's content library and allows
 
 The dashboard includes:
 
-* KPI cards
-* Netflix content by type
-* Content trends by release year
-* Top 10 genres
-* Rating analysis
-* Country analysis
-* Interactive slicers
+- KPI cards
+- Netflix content by type
+- Content trends by release year
+- Top 10 genres
+- Rating analysis
+- Country analysis
+- Interactive slicers
 
 ### Interactive Filters
 
 The dashboard includes slicers that allow users to filter the analysis by:
 
-* **Year**
-* **Rating**
-* **Country**
-* **Type**
+- **Year**
+- **Rating**
+- **Country**
+- **Type**
 
 ### Dashboard Preview
 
-![Netflix Power BI Dashboard](Netflix_Dashboard.png)
+[Netflix Power BI Dashboard](https://github.com/VictoriaKosgei/Data-Analytics-Practice/blob/main/Week-2-Netflix/Netflix_Dashboard.png)
 
 ---
 
@@ -168,15 +168,10 @@ The dashboard includes slicers that allow users to filter the analysis by:
 The analysis produced several important insights:
 
 1. **Movies dominate the Netflix catalog**, with 6,131 Movies compared with 2,676 TV Shows.
-
 2. **Netflix has a diverse content library**, covering many genres and categories.
-
 3. **International content represents a significant part of the catalog**, demonstrating Netflix's global content strategy.
-
 4. **Dramas, international movies, and comedies** are among the most prominent content categories.
-
 5. **The catalog is strongly concentrated around recent release years**, indicating a substantial focus on newer content.
-
 6. **Netflix content spans many countries and rating categories**, highlighting the diversity of its global library.
 
 ---
@@ -187,10 +182,10 @@ The analysis produced several important insights:
 
 Used for data cleaning and exploratory data analysis.
 
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
 ### Jupyter Notebook
 
@@ -208,13 +203,13 @@ Used for project versioning, documentation, and portfolio presentation.
 
 ## 📁 Project Files
 
-| File                                   | Description                                                            |
+| **File** | **Description** |
 | -------------------------------------- | ---------------------------------------------------------------------- |
 | `Project2_NetflixTitles_Cleaned.ipynb` | Jupyter Notebook containing the data cleaning and exploratory analysis |
-| `NetflixTitles_Cleaned.csv`            | Cleaned Netflix dataset                                                |
-| `Netflix_Dashboard.pbix`               | Interactive Power BI dashboard                                         |
-| `Netflix_Dashboard.png`                | Screenshot/preview of the Power BI dashboard                           |
-| `README.md`                            | Project documentation                                                  |
+| `NetflixTitles_Cleaned.csv` | Cleaned Netflix dataset |
+| `Netflix_Dashboard.pbix` | Interactive Power BI dashboard |
+| `Netflix_Dashboard.png` | Screenshot/preview of the Power BI dashboard |
+| `README.md` | Project documentation |
 
 ---
 
@@ -222,21 +217,19 @@ Used for project versioning, documentation, and portfolio presentation.
 
 This project demonstrates practical experience in:
 
-* Data Cleaning
-* Data Preparation
-* Exploratory Data Analysis
-* Data Visualization
-* Python for Data Analysis
-* Pandas
-* Matplotlib
-* Seaborn
-* Power BI
-* Dashboard Development
-* Data Storytelling
-* GitHub Project Documentation
+- Data Cleaning
+- Data Preparation
+- Exploratory Data Analysis
+- Data Visualization
+- Python for Data Analysis
+- Pandas
+- Matplotlib
+- Seaborn
+- Power BI
+- Dashboard Development
+- Data Storytelling
+- GitHub Project Documentation
 
 ---
 
-This project forms part of my ongoing data analytics practice journey, where I am developing practical skills in **data cleaning, exploratory analysis, visualization, dashboard development, and communicating data-driven insights**.
-
-
+This project forms part of my ongoing **data analytics practice journey**, where I am developing practical skills in **data cleaning, exploratory analysis, visualization, dashboard development, and communicating data-driven insights**.
