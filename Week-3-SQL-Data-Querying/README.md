@@ -1,4 +1,4 @@
-# Week 3 – SQL Data Querying
+#  SQL Data Querying
 
 ## 📌 Project Overview
 
